@@ -1,0 +1,22 @@
+{
+  "name": "watermarker",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/javierlandini/watermarker.git"
+  },
+  "author": "Javier Landini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javierlandini/watermarker/issues"
+  },
+  "homepage": "https://github.com/javierlandini/watermarker#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
