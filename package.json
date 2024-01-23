@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test:unit": "jest --coverage",
+    "test": "npm run lint && npm run test:unit",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,16 @@
   },
   "homepage": "https://github.com/javierlandini/watermarker#readme",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "standard": "^17.1.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "test",
+      "xtest",
+      "expect",
+      "jest"
+    ]
   }
 }
