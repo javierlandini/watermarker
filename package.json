@@ -29,7 +29,11 @@
       "test",
       "xtest",
       "expect",
+      "afterAll",
       "jest"
     ]
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
   }
 }
