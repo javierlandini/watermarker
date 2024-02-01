@@ -14,7 +14,7 @@ Nodejs 21.5.0 or up
    npm install
 ```
 4. Execute from inside the project folder
-   ```bash
+```bash
    node bin/cli.js --book=bookPath --watermark=watermarkCopy
-   ```
+```
 
